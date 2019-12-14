@@ -1,0 +1,11 @@
+
+--> @CacheLookup
+makes the lookup for the element happen just once.
+After that, it will be cached in the variable and accessible much faster.
+
+Ex:
+@FindBy(name = "q")
+@CacheLookup
+private WebElement searchBox;
+
+-->

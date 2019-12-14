@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Grouping Suite">
+
+    <test name=" Grouping Test">
+
+        <groups>
+            <run>
+                <include name="FunctionalTest"></include>
+                <exclude name="smokeTest"></exclude>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.mycompany.testing.TestNGGrouping"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

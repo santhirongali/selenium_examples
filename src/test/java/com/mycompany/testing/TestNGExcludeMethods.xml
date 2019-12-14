@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Exclude Methods">
+    <test name="Exclude Methods">
+        <classes>
+            <class name="com.mycompany.testing.TestNGExcludeMethods">
+                <methods>
+                    <exclude name="testCase1"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
